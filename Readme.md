@@ -170,13 +170,13 @@ Here are some good resources I used in order to achieve my project:
 - [How to code](https://stackoverflow.com/)
 
 ### Testing functions
-In the time of writing this first version of the manual I have not built my own tester even though it should be a part of the project, but anyway I came out with some good developed tester for the purpose and I personally used two of them, feel free to on internet to find other testers.
+In the time of writing this first version of the manual, I have not built my own tester even though it should be a part of the project. But anyway, I came out with some good developed tester for the purpose, and I personally used two of them. feel free to search on internet to find more.
 - [libft-unit-test](https://github.com/alelievr/libft-unit-test)
 - [libftTester](https://github.com/Tripouille/libftTester)
 
 ## License
 
-42Lausanne
+MIT
 
 **Free Software, Hell Yeah!**
 
