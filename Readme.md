@@ -1,6 +1,8 @@
 # libft.h
 ## A collections of standard C library functions with some additional ones.
 
+## Current status: [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/hsabir/Libft)](https://github.com/JaeSeoKim/badge42)
+
 The aim of this project is to re-create some standard C library functions including some additional ones the functions created in Libft will become the basic building blocks of later projects that we are going to create in the later of the program.
 Using C standard library at 42 is strictly forbidden, the only functions we're allowed to use are "write(), malloc(), free()", we as well have access to "size_t, and NULL" to create our own functions.
 Every type of errors "Segmentation fault, buss error, memory overflow, memory overlapping, etc" should be handled carefully.
