@@ -6,7 +6,7 @@
 #    By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/11 13:50:51 by hsabir            #+#    #+#              #
-#    Updated: 2021/12/01 16:32:42 by hsabir           ###   ########.fr        #
+#    Updated: 2021/12/01 16:37:30 by hsabir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,6 +66,8 @@ all: $(NAME)
 #s: 
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
+
+bonus: all
 
 $(OBJS): $(SRCS)
 	gcc $(CFLAGS) $(SRCS)
