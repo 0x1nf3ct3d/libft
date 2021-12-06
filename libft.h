@@ -6,7 +6,7 @@
 /*   By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/11 13:50:43 by hsabir            #+#    #+#             */
-/*   Updated: 2021/12/01 16:49:23 by hsabir           ###   ########.fr       */
+/*   Updated: 2021/12/06 17:29:46 by hsabir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,20 @@
 # define FT_TRUE	1
 # define FT_FALSE	0
 
+// ft_get_next_line
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
+# endif
+
+# ifndef FD_SIZE
+#  define FD_SIZE 1
+# endif
+
 typedef int				t_bool;
 typedef struct s_list	t_list;
 
+int		ft_putchar(char c);
+char	*get_next_line(int fd);
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
 void	*ft_calloc(size_t count, size_t size);
@@ -48,6 +59,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strjoin(char const *s1, char const *s2);
+char	*my_strjoin(char *s1, char *s2, int ft);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
@@ -61,6 +73,7 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlen(const char *s);
+int 	ft_putstr(char *s);
 
 // LISTS
 t_list	*ft_lstnew(void *content);

@@ -6,7 +6,7 @@
 #    By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/11 13:50:51 by hsabir            #+#    #+#              #
-#    Updated: 2021/12/01 16:37:30 by hsabir           ###   ########.fr        #
+#    Updated: 2021/12/06 17:14:48 by hsabir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,9 @@ SRCS = ft_atoi.c\
 		ft_lstdelone.c\
 		ft_lstclear.c\
 		ft_lstiter.c\
-		ft_lstmap.c
+		ft_lstmap.c\
+		get_next_line.c\
+		ft_putchar.c
 
 OBJS = $(SRCS:%.c=%.o)
 
