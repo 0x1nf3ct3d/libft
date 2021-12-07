@@ -6,15 +6,16 @@
 /*   By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 11:48:56 by hsabir            #+#    #+#             */
-/*   Updated: 2021/12/07 12:03:24 by hsabir           ###   ########.fr       */
+/*   Updated: 2021/12/07 16:28:14 by hsabir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <libft/ft_strs.h>
-# include <libft/ft_nbrs.h>
+# include "ft_chars.h"
+# include "ft_strs.h"
+# include "ft_nbrs.h"
 # include <stdarg.h>
 # include <stdlib.h>
 # include <unistd.h>

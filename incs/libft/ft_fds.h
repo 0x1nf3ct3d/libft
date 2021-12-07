@@ -6,7 +6,7 @@
 /*   By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 10:41:06 by hsabir            #+#    #+#             */
-/*   Updated: 2021/12/07 11:46:39 by hsabir           ###   ########.fr       */
+/*   Updated: 2021/12/07 16:19:53 by hsabir           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,9 @@
 
 char	*get_next_line(int fd);
 
-int		ft_putchar_fd(char c, int fd);
-int		ft_putendl_fd(char *s, int fd);
-int		ft_putnbr_fd(int n, int fd);
-int		ft_putstr_fd(char *s, int fd);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
+void	ft_putstr_fd(char *s, int fd);
 
 #endif
