@@ -176,7 +176,7 @@ In the time of writing this first version of the manual, I have not built my own
 
 ## License
 
-MIT
+GNU
 
 **Free Software, Hell Yeah!**
 
