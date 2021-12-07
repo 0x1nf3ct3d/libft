@@ -6,12 +6,27 @@
 #    By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/11 13:50:51 by hsabir            #+#    #+#              #
-#    Updated: 2021/12/06 17:14:48 by hsabir           ###   ########.fr        #
+#    Updated: 2021/12/07 12:11:27 by hsabir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+
 NAME = libft.a
-CFLAGS = -Wall -Werror -Wextra -I. -c
+
+#   Compiler section   #
+CFLAGS = -Wall -Werror -Wextra
+CC = gcc
+AR = -rcs
+# End compiler section #
+
+
+#   Path section   #
+INCS_PATH = incs
+SRCS_PATH = srcs
+OBJS_PATH = objs
+# End path section #
+
+
 SRCS = ft_atoi.c\
 		ft_bzero.c\
 		ft_calloc.c\
