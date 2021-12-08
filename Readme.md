@@ -164,6 +164,8 @@ make re
 
 ## get_next_line
 `char *get_next_line(int fd)`
+Calling the function in a loop will read line by line on the file descriptor until the EOF.
+It returns the line that has been read.
 
 
 ## ft_printf
