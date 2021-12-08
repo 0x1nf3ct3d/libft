@@ -186,3 +186,5 @@ It returns the line that has been read.
 GNU
 
 **Free Software, Hell Yeah!**
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
