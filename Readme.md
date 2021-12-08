@@ -13,7 +13,7 @@ Every type of errors "Segmentation fault, buss error, memory overflow, memory ov
 
 Clone this repository.
 ```sh
-git clone https://github.com/0x1nf3ct3d/libft
+https://github.com/1mthe0wl/libft
 ```
 
 cd into the libft directory.
@@ -162,24 +162,10 @@ make re
 ### What is a file descriptor?
 [RTFWikipedia](https://en.wikipedia.org/wiki/File_descriptor)
 
-### Useful resources
 
-Here are some good resources I used in order to achieve my project:
-
-- [Makefile](https://makefiletutorial.com/) - An awsome introduction into Makefile.
-- [Build your own library](https://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html)
-- [How to code](https://stackoverflow.com/)
-
-### Testing functions
-In the time of writing this first version of the manual, I have not built my own tester even though it should be a part of the project. But anyway, I came out with some good developed tester for the purpose, and I personally used two of them. feel free to search on internet to find more.
-- [libft-unit-test](https://github.com/alelievr/libft-unit-test)
-- [libftTester](https://github.com/Tripouille/libftTester)
 
 ## License
 
 GNU
 
 **Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
