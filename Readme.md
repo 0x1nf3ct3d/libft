@@ -183,7 +183,7 @@ It returns the line that has been read.
 - `0` left-pads the number with zeroes (0) instead of spaces when padding is specified.
 - `.` the precision in not specified in the format string, but as an additional integer value argument preceding the argument that has to be formated.
 
-GNU
+
 
 **Free Software, Hell Yeah!**
 
