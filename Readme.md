@@ -6,6 +6,7 @@
 
 The aim of this project is to re-create some standard C library functions, the functions created in Libft will become the basic building blocks of later projects that we are going to create in the later of the program.
 Using C standard library at 42 is strictly forbidden, the only functions we're allowed to use functions created by ourselves using few basic standard functions like `write(), malloc(), free()`.
+
 Every type of errors "Segmentation fault, buss error, memory overflow, memory overlapping, etc" should be handled carefully.
 
 ## Build
