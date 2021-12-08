@@ -1,5 +1,4 @@
 # libft.h
-## Current status: [![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/hsabir/Libft)](https://github.com/JaeSeoKim/badge42)
 
 ## A collections of standard C library functions with some additional ones.
 
