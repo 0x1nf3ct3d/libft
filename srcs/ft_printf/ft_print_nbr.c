@@ -79,7 +79,7 @@ int	ft_put_precision(unsigned long long nbr, t_options *option, char **buffer)
 	return (buffer_len);
 }
 
-int	ft_print_nbr(unsigned long long nbr, t_options *option)
+int	ft_print_nbr(unsigned long long nbr, t_options *option, int fd)
 {
 	char	*buffer;
 	int		buffer_len;
@@ -98,7 +98,7 @@ int	ft_print_nbr(unsigned long long nbr, t_options *option)
 		buffer_len = ft_ptr_prefix(&buffer);
 	ret = put_width_str(&buffer, option);
 	ret += ft_put_minus1(buffer_len, option, &buffer);
-	ft_putstr(buffer);
+	ft_putstr_fd(buffer, fd);
 	free(buffer);
 	return (ret);
 }

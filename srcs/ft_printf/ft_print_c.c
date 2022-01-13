@@ -13,7 +13,7 @@
 #include <libft/ft_printf.h>
 
 // Print a character
-int	ft_print_c(int c, t_options *option)
+int	ft_print_c(int c, t_options *option, int fd)
 {
 	int	ret;
 
@@ -21,14 +21,14 @@ int	ft_print_c(int c, t_options *option)
 	if (option->spec == '%' && option->negative == 1)
 		option->zero = 0;
 	if (option->negative == 1)
-		ret += ft_putchar(c);
-	ret += put_width_c(option->width, 1, option->zero);
+		ret += ft_putchar_fd(c, fd);
+	ret += put_width_c(option->width, 1, option->zero, fd);
 	if (option->negative == 0)
-		ret += ft_putchar(c);
+		ret += ft_putchar_fd(c, fd);
 	return (ret);
 }
 
-int	put_width_c(int width, int len, int zero)
+int	put_width_c(int width, int len, int zero, int fd)
 {
 	int	ret;
 
@@ -36,9 +36,9 @@ int	put_width_c(int width, int len, int zero)
 	while (len < width)
 	{
 		if (zero == 1)
-			ft_putchar('0');
+			ft_putchar_fd('0', fd);
 		else
-			ft_putchar(' ');
+			ft_putchar_fd(' ', fd);
 		len++;
 		ret++;
 	}

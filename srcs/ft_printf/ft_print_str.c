@@ -58,7 +58,7 @@ char	*parse_buffer(char *str, int end, int len)
 	return (buffer);
 }
 
-int	ft_print_str(char *str, t_options *option)
+int	ft_print_str(char *str, t_options *option, int fd)
 {
 	int		ret;
 	char	*buffer;
@@ -70,7 +70,7 @@ int	ft_print_str(char *str, t_options *option)
 		option->precision = ft_strlen(str);
 	buffer = parse_buffer(str, option->precision, ft_strlen(str));
 	ret = put_width_str(&buffer, option);
-	ft_putstr(buffer);
+	ft_putstr_fd(buffer, fd);
 	free(buffer);
 	return (ret);
 }
