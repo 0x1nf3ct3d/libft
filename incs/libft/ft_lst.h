@@ -6,7 +6,7 @@
 /*   By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/07 10:41:12 by hsabir            #+#    #+#             */
-/*   Updated: 2021/12/07 11:48:02 by hsabir           ###   ########.fr       */
+/*   Updated: 2022/01/25 20:58:59 by penguin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,8 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 
 typedef struct s_list
 {
-	void			*content;
+	void		*content;
+	char		type;
 	struct s_list	*next;
 }	t_list;
 
