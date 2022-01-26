@@ -13,6 +13,15 @@
 #ifndef FT_NBRS_H
 # define FT_NBRS_H
 
+typedef struct	s_atof
+{
+	double	int_part;
+	double	fract_part;
+	int	div;
+	int	sign;
+	int	fraction;
+}	t_atof;
+
 char	*ft_itoa(int n);
 int	ft_atoi(const char *str);
 double	ft_atof(const char *str);
