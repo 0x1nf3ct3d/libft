@@ -37,7 +37,7 @@ static void	get_sign(char **tmp, t_atof *atof)
 		(*tmp)++;
 }
 
-static void	init_tmpuct(t_atof *atof)
+static void	init_struct(t_atof *atof)
 {
 	atof->fraction = 0;
 	atof->fract_part = 0;
