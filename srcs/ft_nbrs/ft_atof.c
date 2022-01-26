@@ -12,8 +12,6 @@
 
 #include  "../../incs/libft.h"
 
-#include  "../../incs/libft.h"
-
 static void	get_int(int tmp, t_atof *a)
 {
 	if (a->fraction == 1)
