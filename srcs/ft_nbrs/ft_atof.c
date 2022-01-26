@@ -14,7 +14,7 @@
 
 #include  "../../incs/libft.h"
 
-static void		get_int(int tmp, t_atof *a)
+static void	get_int(int tmp, t_atof *a)
 {
 	if (a->fraction == 1)
 	{
@@ -25,7 +25,7 @@ static void		get_int(int tmp, t_atof *a)
 		a->int_part = a->int_part * 10 + (tmp - '0');
 }
 
-static void		get_sign(char **tmp, t_atof *atof)
+static void	get_sign(char **tmp, t_atof *atof)
 {
 	if (**tmp == '-')
 	{
@@ -39,7 +39,7 @@ static void		get_sign(char **tmp, t_atof *atof)
 		(*tmp)++;
 }
 
-static void		init_tmpuct(t_atof *atof)
+static void	init_tmpuct(t_atof *atof)
 {
 	atof->fraction = 0;
 	atof->fract_part = 0;
@@ -48,7 +48,7 @@ static void		init_tmpuct(t_atof *atof)
 	atof->sign = 1;
 }
 
-double			ft_atof(const char *str)
+double	ft_atof(const char *str)
 {
 	t_atof	a;
 	int		i;
@@ -67,8 +67,7 @@ double			ft_atof(const char *str)
 		else if (tmp[i] == '.')
 		{
 			if (a.fraction)
-				return (a.sign * (a.int_part + a.fract_part
-				/ a.div));
+				return (a.sign * (a.int_part + a.fract_part / a.div));
 			else
 				a.fraction = 1;
 		}
