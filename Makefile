@@ -6,7 +6,7 @@
 #    By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/08 09:06:42 by hsabir            #+#    #+#              #
-#    Updated: 2022/01/25 20:55:51 by penguin          ###   ########.fr        #
+#    Updated: 2022/01/27 14:49:02 by hsabir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ NAME = libft.a
 # ****************************** #
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror #-g3 -fsanitize=address
 ARFLAGS = -rcs
 
 # **************** #
