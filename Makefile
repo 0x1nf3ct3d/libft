@@ -6,7 +6,7 @@
 #    By: hsabir <marvin@42lausanne.ch>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/08 09:06:42 by hsabir            #+#    #+#              #
-#    Updated: 2022/01/27 14:49:02 by hsabir           ###   ########.fr        #
+#    Updated: 2022/01/27 14:54:00 by hsabir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,8 +43,8 @@ SRCS_PRINTF_DIR = ft_printf
 
 # OBJS DIR
 OBJS_DIRS_NAME =	$(SRCS_CHAR_DIR)	$(SRCS_STR_DIR)		$(SRCS_MEM_DIR)	\
-					$(SRCS_NBR_DIR)		$(SRCS_FD_DIR)		$(SRCS_LST_DIR)	\
-					$(SRCS_DLST_DIR)	$(SRCS_PRINTF_DIR)
+			$(SRCS_NBR_DIR)		$(SRCS_FD_DIR)		$(SRCS_LST_DIR)	\
+			$(SRCS_DLST_DIR)	$(SRCS_PRINTF_DIR)
 
 # OBJS DIRS IN OBJ PATH
 OBJS_DIRS = $(addprefix $(OBJS_PATH)/, $(OBJS_DIRS_NAME))
