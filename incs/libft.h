@@ -23,6 +23,7 @@
 # include "libft/ft_nbrs.h"
 # include "libft/ft_fds.h"
 # include "libft/ft_lst.h"
+# include "libft/ft_dlst.h"
 # include "libft/ft_printf.h"
 
 #endif

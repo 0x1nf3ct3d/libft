@@ -23,7 +23,7 @@
 
 # define SPEC "cspdiuxX%"
 
-typedef struct s_otions
+typedef struct s_options
 {
 	int		negative;
 	int		zero;
